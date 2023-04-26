@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Armaan Gupta's Creative Hub
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="Screenshot_2023-03-28_at_2.50.45_PM-removebg-preview.png" type="image/icon type">
+        <script src="everything.js"></script>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            .column {
+              float: left;
+              width: 33.33%;
+              padding: 5px;
+            }
+            
+            /* Clearfix (clear floats) */
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            #wslogo{
+                float: right;
+            }
+            #mathamind_img{
+                border-radius: 20px;
+                border-width: 5px;
+                border-color: royalblue;
+                border-style: solid;
+            }
+            #book_img{
+                border-radius: 20px;
+                border-width: 5px;
+                border-color: black;
+                border-style: solid;
+            }
+            </style>
+    </head>
+    <body>
+        <br>
+        <br>
+        <div class="website">
+        <br>
+        <h1 id="website_name">
+           <img src="Screenshot_2023-03-28_at_2.50.45_PM-removebg-preview.png" height="400px">
+        </h1>
+        <br>
+    </div>
+        <br>
+        <br>
+        <div class="list_of_creations">
+            <h2>
+               <button id="edugame_button" onclick="EduGame()"> Visit my EduGame</button> 
+               <br><br>
+               <img id="mathamind_img" src="Mathamimd.png">
+            </h2>
+            <hr>
+            <br>
+            <h2>
+                <button id="food_button" onclick="Food_Item()"> Visit my Food Item</button>  
+                   <br><br>
+                   <img src="Screenshot_2023-03-28_at_2.25.46_PM-removebg-preview.png">
+                </h2>
+                <hr>
+            <br>
+            <h2>
+                <button id="book_button" onclick="Book()"> Visit my Book</button>     
+                   <br><br>
+                   <img id="book_img" src="TBOS.png" height="500px">
+                </h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="about_me">
+           
+            <div class="row">
+                <div class="column">
+                    <br>
+                    <a style="text-decoration:none" href="aboutme.html"><h4>
+                     About Me
+                 </h4></a> 
+                     <h4>
+                         armaangupta@woodstock.ac.in
+                     </h4>
+                     <a href="https://instagram.com"> <img  src="icons8-instagram-24.png"></a>
+                     <a href="https://facebook.com"> <img width="25px" src="icons8-facebook-50.png"></a>
+                     <a href="https://woodstockschool.in"> <img width="25px" src="icons8-school-building-30.png"></a>
+                </div>
+                <div class="column">
+                <img height="150px"src="Woodstock_School_logo-removebg-preview.png">
+                </div>    
+                <div class="column">
+                 <img width="150px" id="wslogo" src="Woodstock_School_logo.png">
+                </div>
+              </div>
+        </div>
+    </body>
+
+</html>

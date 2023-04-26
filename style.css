@@ -1,0 +1,123 @@
+body
+{
+text-align: center;
+background-color: rgb(247, 215, 203);
+}
+
+#website_name
+{
+font-family:'Times New Roman', Times, serif;
+font-size: 70px;
+}
+
+.summary
+{
+text-align: left;
+}
+
+.website
+{
+    background-color: rgb(245, 172, 144);
+    border-radius: 20%;
+    display: inline-block;
+    width: 1250px;
+}
+
+#edugame_button
+{
+    background-color: rgb(109, 212, 222);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#food_button
+{
+    background-color: rgb(231, 123, 50);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#book_button
+{
+    background-color: rgb(122, 44, 196);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.straightline
+{
+    height: 100px;
+    width: 10px;
+    color: black;
+}
+
+.about_me
+{
+    padding-left: 50px;
+    text-align: left;
+    background-color: brown;
+    height: 165px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.website_edugame
+{
+    background-color: rgb(144, 184, 245);
+    border-radius: 30%;
+    display: inline-block;
+    width: 1250px;
+    border-width: 10px;
+    border-color: black;
+    border-style:solid;
+}
+
+#home_button
+{
+    width:50px;
+    float: left;
+    padding-left: 15px;
+    
+}
+
+.website_fooditem
+{
+    background-color: rgb(245, 172, 144);
+    border-radius: 30%;
+    display: inline-block;
+    width: 1250px;
+    border-width: 10px;
+    border-color: black;
+    border-style:solid;
+}
+
+.website_book
+{
+    background-color: rgb(176, 98, 250);
+    border-radius: 30%;
+    display: inline-block;
+    width: 1250px;
+    border-width: 10px;
+    border-color: black;
+    border-style:solid;
+}
+
+.website_aboutme
+{
+    background-color: rgb(245, 172, 144);
+    border-radius: 30%;
+    display: inline-block;
+    width: 1250px;
+    border-width: 10px;
+    border-color: black;
+    border-style:solid;
+}
